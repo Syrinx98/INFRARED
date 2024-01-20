@@ -168,6 +168,8 @@ def auto_correlate_the_folder(input_folder: str, output_folder: str, output_form
                               cut_image: bool = False, cut_image_threshold: float = 0):
     # close all current plots
     plt.close('all')
+    print("")
+    print("=======================================")
 
     # check if input folder exists
     if not os.path.exists(input_folder):
